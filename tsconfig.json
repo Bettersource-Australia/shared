@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "declaration": true,
+      "outDir": "../shared-libs/dist",
+      "strict": true,
+      "resolveJsonModule": true
+    },
+    "include": ["../shared-libs", "./package.json", ".npmrc"],
+    "exclude": ["../shared-libs/node_modules", "../shared-libs/dist"]
+  }
