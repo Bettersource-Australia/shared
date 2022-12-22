@@ -11,6 +11,23 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^4.9.4"
-  }
-  
+  },
+  "dependencies": {
+    "firebase": "^9.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bettersource-Australia/shared-libs.git"
+  },
+  "keywords": [
+    "shared-utils",
+    "types",
+    "enums",
+    "consts",
+    "util-functions"
+  ],
+  "bugs": {
+    "url": "https://github.com/Bettersource-Australia/shared-libs/issues"
+  },
+  "homepage": "https://github.com/Bettersource-Australia/shared-libs#readme"
 }

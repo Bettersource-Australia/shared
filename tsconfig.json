@@ -7,6 +7,6 @@
       "strict": true,
       "resolveJsonModule": true
     },
-    "include": ["../shared-libs", "./package.json", ".npmrc"],
+    "include": ["../shared-libs", "./package.json"],
     "exclude": ["../shared-libs/node_modules", "../shared-libs/dist"]
   }
