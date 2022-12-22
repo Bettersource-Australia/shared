@@ -15,6 +15,9 @@
   "dependencies": {
     "firebase": "^9.15.0"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Bettersource-Australia/shared-libs.git"
