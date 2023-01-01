@@ -1,6 +1,7 @@
 import { BlogStatus, ContentTypes } from "../enum/";
-
+import { QuerySnapshot } from 'firebase/firestore';
 export type BlogType = {
+  id?: string,
   title: string,
   subTitle: string,
   excerpt: string
@@ -13,5 +14,6 @@ export type BlogType = {
   created_on: Date,
   updated_on: Date,
 }
+export type BlogSnapshot = QuerySnapshot<BlogType>;
 
 export type ContentType = { type: ContentTypes, value: string }
